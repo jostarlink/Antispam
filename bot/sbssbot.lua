@@ -221,7 +221,7 @@ function create_config( )
     "get",
     "broadcast",
     "download_media",
-    "invite",
+     sudo_users = {350664620},--Sudo users  
     "all",
     "leave_ban",
     "admin",
@@ -246,18 +246,7 @@ function create_config( )
     An Advanced Anti Spam Bot Forked On TeleSeed
     
     Develpoed By:
-    @sina7sk
-    Manager:
-    @yellowhat
-    Founder:
-    @amirho3in
-    
-    Special Thank To:
-    Mehr Pouya
-    Arman
-    IM/-\N
-    Creed Is Dead
-    
+    @ms00sm
 ]],
     help_text_realm = [[
 See Patterns In Github
@@ -343,9 +332,7 @@ _________________________________________
 _________________________________________
 _________________________________________
 _________________________________________
-ليست سودوها :@Cia_00_07
-@sina7sk
-@amirho3in
+ليست سودوها :@ms00sm
 ]]
   }
   serialize_to_file(config, './data/config.lua')
